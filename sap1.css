@@ -1,0 +1,140 @@
+p {
+    background-color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    color: goldenrod;
+    border-style: dashed;
+    border-color: hotpink;
+    border-radius: 20%;
+    border-width: 10px;
+    text-transform: capitalize;
+    
+}
+body {
+    background-color:skyblue;
+    background-image: url(9r.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+
+}
+#firsthead {
+    background-color: firebrick;
+    color:darkgrey;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 400;
+    border-radius: 34%;
+    border-color:chocolate ;
+    border-style:dashed;
+    border-width: 15px;
+    
+
+}
+.custom {
+    background-color: azure;
+    color: crimson;
+    text-align: right;
+}
+* {
+    padding: 10px;
+    margin: 10
+}
+h2,h3,h6 {
+    color:rgb(143, 37, 230);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+    #ggr {
+        margin: 25px 50px 25px 50px;
+        font: italic small-caps bold 30px Georgia, serif;
+    }
+    #re {
+        outline:2px solid green ;
+        border: 10px;
+    }
+    #rtg {
+        text-shadow: 2px 2px;
+        background-color: wheat;
+        }
+    #kui {
+        text-shadow: 0 0 2px white,
+        0 0 4px blue,
+        0 0 8px  greenyellow;
+        background-color: wheat;
+    }
+    #fvb {
+        text-shadow: 2px 2px 5px red;
+        background-color: wheat;
+    }
+    .link:hover {
+        font-size: larger;
+        background-color: deeppink;
+    }
+    .box {
+        text-align: center;
+        width: 300px;
+        border: 15px none  rgb(11, 75, 75);
+        margin-top: 10px;
+        margin-right: 60px;
+        margin-bottom: 0px;
+        margin-left: 60px;
+        fill: rgb(2, 68, 68);
+        text-align: left;
+    }
+    ol {
+        list-style-image: url(de2-removebg-preview-removebg-preview.png) ;
+
+
+    }
+    ul { 
+        list-style-type:lower-roman;
+    }
+        ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .card {
+            width: 100%;
+            max-width: 100px;
+            min-height: 300px;
+            max-height: 600PX;
+            overflow: auto;
+        }
+        .container {
+            display:flex;
+            background-color: azure;
+            flex-direction: row-reverse;
+            justify-content: center;
+
+        }
+        .container div{
+            margin: 10px;
+            padding: 20px;
+            background-color: blanchedalmond;
+        }
+        .gridcont {
+            display: grid;
+            background-color: aliceblue;
+            justify-content: center;
+            grid-template-columns: auto auto auto ;
+            gap: 10px;
+
+        }
+        .gridcont div{
+            margin: 10px;
+            padding: 20px;
+            background-color: aquamarine;
+        }
+        .positon {
+            position: static;
+        }
+        .relative {
+            position: relative;
+            top: 20px;
+            right: 30px;
+        }
+        .sticky{
+            position: sticky;
+            top: 0;
+            background: wheat;
+        }

@@ -1,0 +1,94 @@
+body {
+    background-image:url(pexels-eberhardgross-2088170.jpg);
+    background-repeat:round;
+    background-attachment: scroll;
+    background-position: center;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+h1 {
+      align-items: center;
+      font-size: 65px;
+}
+* {
+    padding: 20;
+    margin: 300;
+
+}
+.in-box {
+    margin: 25 50 25 50px;
+    padding: 5px;
+    background-color:burlywood;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box {
+    text-align: center;
+    width: 300px;
+    border: 10px solid  rgb(11, 75, 75);
+    padding: 100px;
+    margin-top: 10px;
+    margin-right: 600px;
+    margin-bottom: 0px;
+    margin-left: 600px;
+    fill: rgb(2, 68, 68);
+    background-color: rgb(208, 224, 224);
+}
+div {
+    box-shadow: 2px 2px 5px rgb(31, 59, 48);
+}
+button:hover {
+    background-color: green;
+    color: goldenrod;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    overflow:hidden;
+  }
+  
+  ul li {
+    float: left;
+  }
+  
+  ul li a {
+    display: block;
+    color:rgba(255, 255, 255, 0.795);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  ul li a:hover {
+    background-color:lavender;
+  }
+  hr {
+    color: crimson;
+  }
+  .navbar {
+    position: left;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .media {
+    display: grid;
+    gap: 10;
+    background-color: cornsilk;
+    color: black;
+    grid-template-columns: auto auto auto auto;
+  }
+  @media (max-width: 345px) {
+    .media{
+      grid-template-columns: auto auto;
+    }
+  }
+  @media (max-width:1440px){
+  .media{
+    grid-template-columns: auto auto auto;
+
+  }
+}
